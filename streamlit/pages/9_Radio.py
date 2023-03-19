@@ -24,8 +24,8 @@ with col2:
         disabled=st.session_state.disabled,
         horizontal=st.session_state.horizontal,
     )
-    expander = st.expander("Посмотреть исходный код")
-    expander.write(r"""```python
+expander = st.expander("Посмотреть исходный код")
+expander.write(r"""```python
     if "visibility" not in st.session_state:
     st.session_state.visibility = "visible"
     st.session_state.disabled = False

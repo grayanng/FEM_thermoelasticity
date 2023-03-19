@@ -15,7 +15,7 @@ edited_df = st.experimental_data_editor(df, num_rows="dynamic")
 favorite_command = edited_df.loc[edited_df["rating"].idxmax()]["command"]
 st.markdown(f"Your favorite command is **{favorite_command}** 🎈")
 
-expander = st.expander("Здесь может быть ваш любой коментарий ")
+expander = st.expander(" Как писать Data Frame ")
 expander.write("""
 ```python
 df = pd.DataFrame(
