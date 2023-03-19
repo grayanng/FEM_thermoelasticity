@@ -8,7 +8,7 @@ path_to_image= os.path.join(os.path.dirname(__file__), 'images', 'streamlit.jpg'
 
 
 r"""
-# Научный проект на тему: Streamlit и его возможности
+# Образовательный проект на тему: Streamlit и его возможности
 
 ## Проект команды №3
 

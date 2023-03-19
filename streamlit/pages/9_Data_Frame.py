@@ -1,5 +1,10 @@
 import streamlit as st
 import pandas as pd
+r"""
+# Анализ данных
+
+"""
+
 
 df = pd.DataFrame(
     [
@@ -8,6 +13,7 @@ df = pd.DataFrame(
        {"command": "st.time_input", "rating": 3, "is_widget": True},
    ]
 )
+
 edited_df = st.experimental_data_editor(df, num_rows="dynamic")
 
 favorite_command = edited_df.loc[edited_df["rating"].idxmax()]["command"]

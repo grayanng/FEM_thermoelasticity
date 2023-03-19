@@ -1,8 +1,8 @@
 import streamlit as st
 
 r"""
-# Виды колоквиумов
-- Этот вид колоквиума больше подходит для фотографий
+# Колонки
+
 """
 col1, col2, col3 = st.columns(3)
 
@@ -18,7 +18,7 @@ with col3:
    st.header("An owl")
    st.image("https://static.streamlit.io/examples/owl.jpg")
 
-expander = st.expander("Как вывести колоквиум")
+expander = st.expander("Как вывести колонки")
 expander.write ( r"""```python
 col1, col2, col3 = st.columns(3)
 

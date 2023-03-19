@@ -7,7 +7,7 @@ r"""
 - Использование карт это очень интересная функция и особенность Streamlit
 """
 df = pd.DataFrame(
-    np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
+    np.random.randn(4, 2) / [100, 100] + [54.922549, 43.230477],
     columns=['lat', 'lon'])
 
 st.map(df)
@@ -15,7 +15,7 @@ st.map(df)
 expander = st.expander("Вывод карты в вашей презентации")
 expander.write ( r"""```python
 df = pd.DataFrame(
-    np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
+    np.random.randn(4, 2) / [100, 100] + [54.922549, 43.230477],
     columns=['lat', 'lon'])
 
 st.map(df)
