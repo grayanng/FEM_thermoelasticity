@@ -3,7 +3,6 @@ from PIL import Image
 import os.path
 
 path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', 'Picture_3.png')
-path_to_image_1= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', 'Picture_4.png')
 
 """
 # Сетка 
@@ -13,5 +12,3 @@ path_to_image_1= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'image
 image = Image.open(path_to_image)
 st.image (image, caption= 'Рисунок 3 - Сетка упрощенной модели ')
 
-image = Image.open(path_to_image_1)
-st.image (image, caption= 'Рисунок 4 - Сетка базовой модели')
