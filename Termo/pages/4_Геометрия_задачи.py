@@ -98,8 +98,6 @@ if menu == 'Сетка':
     На данный момент, использовалось построение сетки по умолчанию, без определения дополнительных параметров ($$ 1D \implies 2D $$ )
     
     """
-    image = Image.open(path_to_image_2)
-    st.image(image, caption='Рисунок 3 - Область задачи ')
 
     image = Image.open(path_to_image)
     st.image(image, caption='Рисунок 4 - Сетка упрощенной модели ')

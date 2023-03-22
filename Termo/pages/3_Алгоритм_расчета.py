@@ -29,7 +29,7 @@ if menu == 'Теплопроводность':
     $$\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad$$ $$a(u,w)=L(w) $$"""
     expander = st.expander(" Используемые переменные ")
     expander.write(r"""  $$a(u,w)$$-  билинейная форма $$\\$$ $$L(w)$$- линейная форма""")
-    """- #### Программная реализация для решения дифференциального уравнения в FEniCS
+    r"""- #### Программная реализация для решения дифференциального уравнения в FEniCS
     eq_tem = $$ \textcolor{green}{(k\_ *inner (nabla\_grad(tem), nabla\_grad(q))* dx} - \textcolor{blue}{heat\_source *q *dx} $$\
     a\_therm = lhs(eq\_tem)\
     L\_therm= rhs(eq\_tem)
