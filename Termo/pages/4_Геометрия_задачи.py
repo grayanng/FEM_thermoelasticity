@@ -30,7 +30,7 @@ if menu == 'Геометрия расчета':
     ### Параметры
     LX =  0.02;\
     dy = 0.002;\
-    LY = 0.01 + dy;\
+    LY = 0.012 + dy;\
     p1 = LY/50;\
     p2 = LY/100;
     ### Создание расчетной области
@@ -62,7 +62,7 @@ if menu == 'Геометрия расчета':
     ### Параметры
     LX = 0.02;\
     dy = 0.002;\
-    LY = 0.01+dy;\
+    LY = 0.012+dy;\
     p1 = LY/50;\
     p2 = LY/100;
     ### Создадим расчетную область
@@ -90,7 +90,7 @@ if menu == 'Геометрия расчета':
     """
 if menu == 'Сетка':
     path_to_image = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', 'Picture_3.png')
-    path_to_image_2 = os.path.join(os.path.dirname((__file__)), 'images', 'Picture_5.png')
+
 
 
     """
