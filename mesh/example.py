@@ -13,3 +13,5 @@ mesh = Mesh("composite.xml")
 pr = MeshFunction("size_t", mesh, "composite_physical_region.xml")
 fr = MeshFunction("size_t", mesh, "composite_facet_region.xml")
 print("subdom created")
+
+bc = DirichletBC(fr, 9)
