@@ -1,6 +1,8 @@
 import gmsh
 import sys
+from tkinter import filedialog
 from math import sqrt
+
 gmsh.initialize(sys.argv)
 
 gmsh.model.add("geom")
@@ -72,7 +74,9 @@ gmsh.option.setNumber("Mesh.MeshSizeFromCurvature", 0)
 gmsh.option.setNumber("Mesh.Algorithm", 5) # Делоне-классический 
 #gmsh.option.setNumber("Mesh.Algorithm", 6) # Делоне-классический 
 gmsh.model.mesh.generate(2)
-gmsh.write(f'{gmsh.model.getCurrent()}.msh')
+#gmsh.write(f'{gmsh.model.getCurrent()}.msh')
+file = filedialog.asksaveasfilename()
+gmsh.write(file)
 
 # Launch the GUI to see the results:
 if '-nopopup' not in sys.argv:
