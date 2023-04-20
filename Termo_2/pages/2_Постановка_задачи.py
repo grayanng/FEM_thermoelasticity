@@ -29,13 +29,12 @@ if menu=='Постановка задачи теплопроводности':
     $$
       \begin{aligned}
       &-\nabla \cdotp (k\cdotp \nabla T) = f\\
-      &f=\alpha_{air}\cdotp(T-T_{air})
       \end{aligned}
     $$
       #### Слабая форма
     $$
     \begin{aligned}
-     &-\int_{\varOmega}k\cdotp (\nabla \omega \cdotp \nabla T)d\varOmega = \int_{\varOmega} \omega \cdotp f dx
+     &-\int_{\varOmega}k\cdotp (\nabla \omega \cdotp \nabla T)d\varOmega = \int_{\varOmega} \omega \cdotp \alpha_{air}\cdotp(T-T_{air}) ds
     
     \end{aligned}
     $$

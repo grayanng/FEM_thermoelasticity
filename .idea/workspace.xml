@@ -26,6 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d88ddb42-81c3-4827-8b96-7b34c8ca2ade" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Termo/0_Введение.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo/0_Введение.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Termo/images/v4/mesh_mshr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Termo/images/v4/mesh_mshr.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Termo/pages/1_План_работы.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo/pages/1_План_работы.py" afterDir="false" />
@@ -37,9 +38,9 @@
       <change beforePath="$PROJECT_DIR$/Termo_2/0_Введение.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/0_Введение.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Termo_2/pages/1_Упоминалось_ранее.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/1_Упоминалось_ранее.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Termo_2/pages/2_Постановка_задачи.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/2_Постановка_задачи.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/pages/3_Графики.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/3_Учет_двуслойности.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/pages/3_Учет_двуслойности.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/3_Учет_двуслойности.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Termo_2/pages/4_Сетка.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/4_Сетка.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/pages/5_Программа.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/5_Программная_реализация.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/pages/5_Программная_реализация.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/5_Программная_реализация.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Termo_2/pages/6_Результаты.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/6_Результаты.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Termo_2/pages/7_Заключение.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/7_Заключение.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/env.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/env.yaml" afterDir="false" />
@@ -237,7 +238,7 @@
       <workItem from="1681914307720" duration="11000" />
       <workItem from="1681920939973" duration="599000" />
       <workItem from="1681930704736" duration="1273000" />
-      <workItem from="1681973139571" duration="3152000" />
+      <workItem from="1681973139571" duration="8526000" />
     </task>
     <servers />
   </component>
