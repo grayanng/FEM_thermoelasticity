@@ -1,9 +1,16 @@
 import streamlit as st
 
+r"""
+# Ключевые этапы в FEniCS
 
+"""
 
 r'''
-### Условия для вверхней и нижней граней
+## Граничные условия
+'''
+
+r'''
+### Теплопроводность
 '''
 
 code = '''
@@ -27,7 +34,7 @@ bcs_tem = [bc_tem_bottom, bc_tem_top]
 st.code(code, language = 'python')
 
 r'''
-### Условия для вверхних точек
+### Упругость
 '''
 
 code = '''
@@ -51,9 +58,12 @@ bcs_u = [lt_x_fixed_point, lt_y_fixed_point, rt_y_fixed_point]
 '''
 st.code(code, language='python')
 
+r'''
+## Решение краевой задачи
+'''
 
 r'''
-### Запись для тепла
+### Тепло
 '''
 
 code = '''
@@ -73,7 +83,7 @@ st.code(code, language = 'python')
 
 
 r'''
-### Запись для упругости
+### Упругость
 '''
 
 code = '''
@@ -96,7 +106,7 @@ solve(a_elas == L_elas, u, bcs_u, solver_parameters=sol_settings)
 st.code(code, language = 'python')
 
 r'''
-### Запись для напряжения
+## Вычисление напряжений
 '''
 
 code = '''
