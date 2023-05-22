@@ -1,1 +1,0 @@
-b'polynom = P  eo = 2 THOt = [450.]'

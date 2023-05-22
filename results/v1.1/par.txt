@@ -1,1 +1,0 @@
-b'polynom = CG  eo = 1 THOt = [450.]'
