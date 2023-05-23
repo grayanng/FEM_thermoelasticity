@@ -1,9 +1,10 @@
-Merge "raw_geo.step";
-Physical Surface("upper_boundary", 1) = {8};
-Physical Surface("lower_boundary", 2) = {3};
-Physical Surface("interface", 3) = {1};
-Physical Surface("conv_surfs", 4) = {9, 2, 5, 11, 7, 4, 12, 6};
-Physical Volume("first_layer", 1) = {1};
-Physical Volume("second_layer", 2) = {2};
-
-
+SetFactory("OpenCASCADE");
+Box(1) = {0, 0, 0, 1, 1, 0.2};
+Box(2) = {0, 0, 0.2, 1, 1, 1};
+Coherence;
+Physical Surface("upper", 1) = {11};
+Physical Surface("lower", 2) = {5};
+Physical Surface("conv_walls", 4) = {7, 1, 3, 9, 10, 4, 8, 2};
+Physical Surface("interface", 3) = {6};
+Physical Volume("dom1", 1) = {1};
+Physical Volume("dom2", 2) = {2};

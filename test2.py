@@ -78,8 +78,8 @@ bc_tem_bottom = DirichletBC(F, THot, fr, 1)
 bc_tem_top = DirichletBC(F, TAir, fr, 2)
 bcs_tem = [bc_tem_bottom, bc_tem_top]
 # ГУ 1 рода для ур-я термоупругости
-bc_u_lfp = DirichletBC(V, Constant((0, 0)), l_fix_p)
-bc_u_rfp = DirichletBC(V.sub(1), Constant(0), r_fix_p)
+bc_u_lfp = DirichletBC(V, Constant((0, 0)), l_fix_p, method="pointwise")
+bc_u_rfp = DirichletBC(V.sub(1), Constant(0), r_fix_p, method="pointwise")
 bcs_u = [bc_u_lfp, bc_u_rfp]
 
 # Переопределяем дифференциалы интегралов для доступных подобластей

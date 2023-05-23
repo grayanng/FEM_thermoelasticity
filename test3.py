@@ -12,12 +12,9 @@ from dolfin import *
 
 # Domain settings
 from ufl.coefficient import Coefficient
-L_x = 0.02  # [m] domain width (x, z)
-L_z = 0.012  # [m] domain height
-L_y = 0.01  # [m] domain depth
-resW = 50  # mesh resolution (x, z)-directions (number of points)
-resH = 50  # mesh y-resolution
-resD = resW
+L_x = 1  # [m] domain width (x, z)
+L_z = 1.2  # [m] domain height
+L_y = 1  # [m] domain depth
 
 # Consts 
 mu1 = Constant(0.8e11)
@@ -52,7 +49,7 @@ mesh = Mesh(path)
 fr = MeshFunction('size_t', mesh, cut_xml(path) + '_facet_region.xml')
 pr = MeshFunction('size_t', mesh, cut_xml(path) + '_physical_region.xml')
 # Finite element order
-eo = 3
+eo = 1
 polynom = 'CG'
 # Create functional space
 F = FunctionSpace(mesh, polynom, eo)  # piecewise linear polynomials
@@ -86,10 +83,10 @@ bc_tem_bottom = DirichletBC(F, THot, fr, 1)
 bc_tem_top = DirichletBC(F, TAir, fr, 2)
 bcs_tem = [bc_tem_bottom, bc_tem_top]
 # ГУ 1 рода для ур-я термоупругости
-bc_u_lbfp = DirichletBC(V, Constant((0, 0, 0)), lb_fix_p)
-bc_u_rbfp = DirichletBC(V.sub(1), Constant(0), rb_fix_p)
-bc_u_ltfp = DirichletBC(V, Constant((0, 0, 0)), lt_fix_p)
-bc_u_rtfp = DirichletBC(V.sub(1), Constant(0), rt_fix_p)
+bc_u_lbfp = DirichletBC(V, Constant((0, 0, 0)), lb_fix_p, method="pointwise")
+bc_u_rbfp = DirichletBC(V.sub(1), Constant(0), rb_fix_p, method="pointwise")
+bc_u_ltfp = DirichletBC(V, Constant((0, 0, 0)), lt_fix_p, method="pointwise")
+bc_u_rtfp = DirichletBC(V.sub(1), Constant(0), rt_fix_p, method="pointwise")
 bcs_u = [bc_u_lbfp, bc_u_rbfp, bc_u_ltfp, bc_u_rtfp]
 
 # Переопределяем дифференциалы интегралов для доступных подобластей
@@ -139,14 +136,13 @@ sol_settings = {'linear_solver': 'lu'}
 solve(a_therm == L_therm, tem, bcs_tem, solver_parameters=sol_settings)
 
 # Compute elasticity
-#tem_el.assign(tem) # Присваем решение уравнения 1 для уравнения 2
-#solve(a_elas == L_elas, u, bcs_u, solver_parameters=sol_settings)
+tem_el.assign(tem) # Присваем решение уравнения 1 для уравнения 2
+solve(a_elas == L_elas, u, bcs_u, solver_parameters=sol_settings)
 
-# # Compute stress
-# Compute elasticity
-#tem_el.assign(tem) # Присваем решение уравнения 1 для уравнения 2
-#disp.assign(u)
-#solve(a_str == L_str, stress, solver_parameters=sol_settings)
+# Compute stress
+tem_el.assign(tem) # Присваем решение уравнения 1 для уравнения 2
+disp.assign(u)
+solve(a_str == L_str, stress, solver_parameters=sol_settings)
 
 
 # Save solution
@@ -160,4 +156,3 @@ u_file << (u)
 stress.rename('Sigma [Pa]', 'label')
 s_file = File(f'{path}stress.pvd')
 s_file << (stress)
-
