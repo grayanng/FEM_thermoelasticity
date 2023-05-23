@@ -28,24 +28,10 @@ if menu=='Постановка задачи теплопроводности':
       #### Уравнение теплопроводности 
     $$
       \begin{aligned}
-      &-\nabla \cdotp (k\cdotp \nabla T) = f\\
+      &-\nabla  (k \nabla T) = f\\
       \end{aligned}
     $$
-      #### Слабая форма
-    $$
-    \begin{aligned}
-     &-\int_{\varOmega}k\cdotp (\nabla \omega \cdotp \nabla T)d\varOmega = \int_{\varOmega} \omega \cdotp \alpha_{air}\cdotp(T-T_{air}) ds
-    
-    \end{aligned}
-    $$
-
-      """
-    expander = st.expander(" Используемые переменные ")
-    expander.write(
-        r""" $$T$$ - поле температуры  $$\\ k$$ - коэффициент теплопроводности 
-        $$\\$$ $$w$$ - тестовая функция $$\\$$ $$\alpha_{air}$$ -  коэффициент конвекции $$\\$$ 
-         $$T_{air}$$ - температура окружающей среды """)
-
+    """
     r"""
     #### Граничные условия
     $$
@@ -55,6 +41,23 @@ if menu=='Постановка задачи теплопроводности':
     \end{aligned}
     $$
     """
+    r"""
+      #### Слабая форма
+    $$
+    \begin{aligned}
+     &-\int_{\varOmega}k (\nabla \omega  \nabla T)d\varOmega = \int_{\varOmega} \omega  \alpha_{air}(T-T_{air}) d\varOmega
+    
+    \end{aligned}
+    $$
+
+    """
+    expander = st.expander(" Используемые переменные ")
+    expander.write(
+        r""" $$T$$ - поле температуры  $$\\ k$$ - коэффициент теплопроводности 
+        $$\\$$ $$w$$ - тестовая функция $$\\$$ $$\alpha_{air}$$ -  коэффициент конвекции $$\\$$ 
+         $$T_{air}$$ - температура окружающей среды """)
+
+
 if menu=='Постановка задачи упругости':
     r"""
          # Постановка задачи упругости $$\\$$
@@ -70,7 +73,7 @@ if menu=='Постановка задачи упругости':
     &div\sigma = 0\\
     &\sigma = \lambda\thetasym I + 2\mu\varepsilon^{el} \\ 
     &\varepsilon = \varepsilon^{el}+{\varepsilon^{th}}\\
-    &\varepsilon = \frac{1}{2}\cdotp (\nabla{u} + (\nabla u)^{T})\\
+    &\varepsilon = \frac{1}{2} (\nabla{u} + (\nabla u)^{T})\\
     &\varepsilon^{th} = [(3\lambda + 2\mu) \alpha(T-T_{ref})]I
     &\end{aligned}
     $$
@@ -87,19 +90,19 @@ if menu=='Постановка задачи упругости':
 
     """)
 
-    r"""
-    #### Слабая форма 
-    $$
-      {\int_{\varOmega} \sigma\varepsilon dx} = 0
-    $$
-    """
+
     r"""
      #### Граничные условия
      $$
      U_1 = 0 \quad U_2 = 0
      $$
      """
-
+    r"""
+    #### Слабая форма 
+    $$
+      {\int_{\varOmega} \sigma\varepsilon dx} = 0
+    $$
+    """
     r"""
     #### Напряжение по Мизесу
     $$
