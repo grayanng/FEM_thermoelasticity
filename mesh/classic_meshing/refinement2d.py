@@ -1,4 +1,5 @@
 import gmsh
+import meshio
 import sys
 from tkinter import filedialog
 from math import sqrt
@@ -69,13 +70,14 @@ gmsh.model.mesh.setSizeCallback(cback1)
 gmsh.option.setNumber("Mesh.MeshSizeExtendFromBoundary", 0)
 gmsh.option.setNumber("Mesh.MeshSizeFromPoints", 0)
 gmsh.option.setNumber("Mesh.MeshSizeFromCurvature", 0)
-
+gmsh.option.setNumber("Mesh.MshFileVersion", 2)
 
 gmsh.option.setNumber("Mesh.Algorithm", 5) # Делоне-классический 
 #gmsh.option.setNumber("Mesh.Algorithm", 6) # Делоне-классический 
 gmsh.model.mesh.generate(2)
 #gmsh.write(f'{gmsh.model.getCurrent()}.msh')
 file = filedialog.asksaveasfilename()
+
 gmsh.write(file)
 
 # Launch the GUI to see the results:

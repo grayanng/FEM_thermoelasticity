@@ -1,14 +1,15 @@
 import gmsh
 import sys
 from tkinter import filedialog
+import meshio as mio
 from math import sqrt
 
 gmsh.initialize(sys.argv)
 
 gmsh.model.add("geom")
 
-# Let's create a simple rectangular geometry:
-lc = 2.e-3
+# Характерный разер сетки 
+lc = 4.e-3
 LX = 0.02
 dy = 0.002
 LY = 0.01 + dy
@@ -53,14 +54,11 @@ gmsh.model.mesh.field.setNumbers(3, "FieldsList", [2])
 
 gmsh.model.mesh.field.setAsBackgroundMesh(3)
 
-min_size = sqrt(LX**2 + LY**2) / 1.e2 # Характерный размер геометрии
+min_size = sqrt(LX**2 + LY**2) / 5.e1 # Характерный размер геометрии
 # Три лямбда-функции для оптимизации размеров
 # Ограничение сверху через жёстко заданный размер min_size 
 cback1 = lambda dim, tag, x, y, z, lc: lc if lc <  min_size else min_size 
-# Контролируется исключительно geo файлом и функциями сверху
-cback2 = lambda dim, tag, x, y, z, lc: lc
-# Жёстко фиксирована через характерный размер области
-cback3 = lambda dim, tag, x, y, z, lc: sqrt(LX**2 + LY**2) / 1.e2
+
 
 gmsh.model.mesh.setSizeCallback(cback1)
 
@@ -68,14 +66,8 @@ gmsh.model.mesh.setSizeCallback(cback1)
 gmsh.option.setNumber("Mesh.MeshSizeExtendFromBoundary", 0)
 gmsh.option.setNumber("Mesh.MeshSizeFromPoints", 0)
 gmsh.option.setNumber("Mesh.MeshSizeFromCurvature", 0)
+gmsh.option.setNumber("Mesh.MshFileVersion",2.2)
 
-#
-# gmsh.option.setNumber("Mesh.Algorithm", 5) # Делоне-классический 
-# #gmsh.option.setNumber("Mesh.Algorithm", 6) # Делоне-классический 
-# gmsh.model.mesh.generate(2)
-# #gmsh.write(f'{gmsh.model.getCurrent()}.msh')
-# file = filedialog.asksaveasfilename()
-# gmsh.write(file)
 gmsh.model.mesh.generate(3)
 #gmsh.write(f'{gmsh.model.getCurrent()}.msh')
 file = filedialog.asksaveasfilename()
