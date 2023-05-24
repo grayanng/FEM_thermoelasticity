@@ -3,8 +3,18 @@ from PIL import Image
 import os.path
 menu = st.sidebar.radio('***',
     (
-     'Постановка задачи теплопроводности','Постановка задачи упругости')
+     'Задачи 3-го этапа','Постановка задачи теплопроводности','Постановка задачи упругости')
 )
+if menu == 'Задачи 3-го этапа':
+    r"""
+    # Задачи 3-го этапа $$\\$$
+
+    - реализация программы на Python для решения задачи стационарной теплопроводности для двуслойного 3D образца с поверхностным нагревом
+    - генерация сеток в gmsh
+    - добавление решения уравнений упругости
+    - визуализация расчетов в ParaView
+
+    """
 if menu == 'Постановка задачи теплопроводности':
     r"""
     # Постановка задачи теплопроводности $$\\$$
@@ -24,8 +34,9 @@ if menu == 'Постановка задачи теплопроводности':
     #### Граничные условия
     $$
     \begin{aligned}
-    T(x,t) &= g(x) &x&\isin Г_1\cupГ_3  \\ 
-    -k\dfrac {\partial T}{\partial n}(x,t)&=0  &x&\isinГ_2
+    T(x,t) &= T_{HOT} &x&\isin Г_1 \\
+    T(x,t) &= T_{air} &x&\isin Г_3 \\
+    -k\dfrac {\partial T}{\partial n}(x,t)&=\alpha_{air}(T-T_{air})  &x&\isinГ_2
     \end{aligned}
     $$
     """
@@ -33,7 +44,7 @@ if menu == 'Постановка задачи теплопроводности':
       #### Слабая форма
     $$
     \begin{aligned}
-     &-\int_{\varOmega}k (\nabla \omega  \nabla T)d\varOmega = \int_{\varOmega} \omega  \alpha_{air}(T-T_{air}) d\varOmega
+     &-\int_{\varOmega}k (\nabla \omega  \nabla T)d\varOmega = 0
 
     \end{aligned}
     $$

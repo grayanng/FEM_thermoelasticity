@@ -45,8 +45,7 @@ if menu=='Постановка задачи теплопроводности':
       #### Слабая форма
     $$
     \begin{aligned}
-     &-\int_{\varOmega}k (\nabla \omega  \nabla T)d\varOmega = \int_{\varOmega} \omega  \alpha_{air}(T-T_{air}) d\varOmega
-    
+     &-\int_{\varOmega}k (\nabla \omega  \nabla T)d\varOmega = 0  
     \end{aligned}
     $$
 
