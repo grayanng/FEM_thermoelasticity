@@ -21,7 +21,7 @@ if menu=='Постановка задачи теплопроводности':
     r"""
     # Постановка задачи теплопроводности $$\\$$
     """
-    path_to_image_1 = os.path.join(os.path.dirname((__file__)), 'images', 'Task.png')
+    path_to_image_1 = os.path.join(os.path.dirname((__file__)), 'images', 'pic2D.png')
     image = Image.open(path_to_image_1)
     st.image(image, caption='')
     r"""
