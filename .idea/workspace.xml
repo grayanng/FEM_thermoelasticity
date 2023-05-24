@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -25,130 +28,62 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d88ddb42-81c3-4827-8b96-7b34c8ca2ade" name="Default Changelist" comment="">
+    <list default="true" id="d88ddb42-81c3-4827-8b96-7b34c8ca2ade" name="Default Changelist" comment="fix code in streamlit">
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s1.pvsm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/stress.pvd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/stress000000.vtu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/tem.pvd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/tem000000.vtu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/temv0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/temv1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/u.pvd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/u000000.vtu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/um.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/s1.pvsm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/s4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/stress.pvd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/stress000000.vtu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/tem.pvd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/tem000000.vtu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/u.pvd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/u000000.vtu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/um.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/um2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo/0_Введение.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo/0_Введение.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo/images/v4/mesh_mshr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Termo/images/v4/mesh_mshr.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo/pages/1_План_работы.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo/pages/1_План_работы.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo/pages/2_Постановка_задачи.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo/pages/2_Постановка_задачи.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo/pages/3_Алгоритм_расчета.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo/pages/3_Алгоритм_расчета.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo/pages/4_Геометрия_задачи.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo/pages/4_Геометрия_задачи.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo/pages/4_Результаты.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo/pages/4_Результаты.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo/pages/6_Заключение.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo/pages/6_Заключение.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/0_Введение.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/0_Введение.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/pages/1_Упоминалось_ранее.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/1_Упоминалось_ранее.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/pages/2_Постановка_задачи.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/2_Постановка_задачи.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/pages/3_Учет_двуслойности.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/3_Учет_двуслойности.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/pages/4_Сетка.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/4_Сетка.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/pages/5_Программная_реализация.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/5_Программная_реализация.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/pages/6_Результаты.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/6_Результаты.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/pages/7_Заключение.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/7_Заключение.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/env.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expriments.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/expriments.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/.project" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/classic_meshing/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/.pydevproject" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/classic_meshing/.pydevproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/classic_meshing/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/refinement.py" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/classic_meshing/refinement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v0/composite.msh" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/classic_meshing/v0/composite.msh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v0/conv_meshes/composite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/classic_meshing/v0/conv_meshes/composite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v0/conv_meshes/composite_facet_region.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/classic_meshing/v0/conv_meshes/composite_facet_region.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v0/conv_meshes/composite_physical_region.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/classic_meshing/v0/conv_meshes/composite_physical_region.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v0/geom.geo" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/classic_meshing/v0/geom.geo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v1/composite_delaunnay.msh" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/classic_meshing/v1/composite_delaunnay.msh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v1/composite_fdelaunnay.msh" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/classic_meshing/v1/composite_fdelaunnay.msh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v1/composite_fenics/composite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/classic_meshing/v1/composite_fenics/composite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v1/composite_fenics/composite_facet_region.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/classic_meshing/v1/composite_fenics/composite_facet_region.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v1/composite_fenics/composite_physical_region.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/classic_meshing/v1/composite_fenics/composite_physical_region.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v1/geom.geo" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/classic_meshing/v1/geom.geo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/v0/CURRENT/composite_simplified.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/v0/CURRENT/composite_simplified.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/v0/CURRENT/composite_simplified_facet_region.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/v0/CURRENT/composite_simplified_facet_region.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/v0/CURRENT/composite_simplified_physical_region.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/v0/CURRENT/composite_simplified_physical_region.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/v0/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/v0/example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/v0/geom.geo" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/v0/geom.geo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/v0/geom.msh" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/v0/geom.msh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/v0/geom_simplified.geo" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/v0/geom_simplified.geo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/v0/geom_simplified.msh" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/v0/geom_simplified.msh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/v0/raw_geom.geo" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/v0/raw_geom.geo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesh/v0/raw_geom.msh" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/v0/raw_geom.msh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.1/mesh_mshr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.1/mesh_mshr.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.1/par.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.1/par.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.1/tem.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.1/tem.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.1/tem000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.1/tem000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.1/u.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.1/u.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.1/u000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.1/u000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.1/vms.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.1/vms.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.1/vms000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.1/vms000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.2/mesh_mshr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.2/mesh_mshr.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.2/par.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.2/par.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.2/tem.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.2/tem.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.2/tem000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.2/tem000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.2/u.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.2/u.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.2/u000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.2/u000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.2/vms.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.2/vms.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.2/vms000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.2/vms000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.3/mesh_mshr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.3/mesh_mshr.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.3/par.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.3/par.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.3/tem.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.3/tem.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.3/tem000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.3/tem000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.3/u.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.3/u.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.3/u000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.3/u000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.3/vms.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.3/vms.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.3/vms000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.3/vms000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.4/mesh_mshr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.4/mesh_mshr.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.4/par.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.4/par.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.4/tem.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.4/tem.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.4/tem000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.4/tem000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.4/u.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.4/u.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.4/u000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.4/u000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.4/vms.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.4/vms.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v1.4/vms000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v1.4/vms000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.1/mesh_mshr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.1/mesh_mshr.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.1/par.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.1/par.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.1/tem.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.1/tem.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.1/tem000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.1/tem000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.1/u.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.1/u.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.1/u000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.1/u000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.1/vms.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.1/vms.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.1/vms000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.1/vms000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.2/mesh_mshr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.2/mesh_mshr.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.2/par.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.2/par.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.2/tem.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.2/tem.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.2/tem000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.2/tem000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.2/u.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.2/u.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.2/u000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.2/u000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.2/vms.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.2/vms.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.2/vms000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.2/vms000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.3/mesh_mshr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.3/mesh_mshr.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.3/par.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.3/par.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.3/tem.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.3/tem.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.3/tem000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.3/tem000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.3/u.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.3/u.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.3/u000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.3/u000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.3/vms.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.3/vms.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.3/vms000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.3/vms000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.4/mesh_mshr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.4/mesh_mshr.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.4/par.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.4/par.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.4/tem.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.4/tem.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.4/tem000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.4/tem000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.4/u.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.4/u.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.4/u000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.4/u000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.4/vms.pvd" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.4/vms.pvd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/v2.4/vms000000.vtu" beforeDir="false" afterPath="$PROJECT_DIR$/results/v2.4/vms000000.vtu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit/pages/10_Columns.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/pages/10_Columns.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit/pages/11_Columns.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/pages/11_Columns.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit/pages/12_Tabs.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/pages/12_Tabs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit/pages/13_Maps.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/pages/13_Maps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit/pages/14_Ploty.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/pages/14_Ploty.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit/pages/15_Mathplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/pages/15_Mathplot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit/pages/16_Заключение.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/pages/16_Заключение.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit/pages/3_Audio&amp;Video.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/pages/3_Audio&amp;Video.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit/pages/4_Graphic.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/pages/4_Graphic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit/pages/5_LATEX.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/pages/5_LATEX.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit/pages/6_Sliders.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/pages/6_Sliders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit/pages/7_Expander.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/pages/7_Expander.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit/pages/8_Data_Frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/pages/8_Data_Frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit/pages/9_Radio.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/pages/9_Radio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/tem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/tem2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/tem3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/ux.png" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/images/v1/ux.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/ux2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/ux3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/uy.png" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/images/v1/uy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/uy2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/uy3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/vms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/vms2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/tem.png" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/images/v2/tem.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/tem2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/tem3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/ux.png" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/images/v2/ux.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/ux2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/ux3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/uy.png" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/images/v2/uy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/uy2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/uy3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/vms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/vms2.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,11 +111,17 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/ponomdi/PycharmProjects/FEM_thermoelasticity/Termo_2/images/v1",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ponomdi\PycharmProjects\FEM_thermoelasticity\Termo_2\images\v1" />
+      <recent name="C:\Users\ponomdi\PycharmProjects\FEM_thermoelasticity\Termo_2\images\v2" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="FEM_thermoelasticity" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -267,48 +208,12 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="361" y="49" key="#Plugins" timestamp="1680967187959">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="361" y="49" key="#Plugins/0.0.1536.816@0.0.1536.816" timestamp="1680967187959" />
-    <state x="223" y="54" width="1089" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1681800015384">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="223" y="54" width="1089" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1681800015384" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1680966839663">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1680966839663" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1679251398906">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1679251398906" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1679251398906">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1679251398906" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1679251398906">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1679251398906" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1679251398906">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1679251398906" />
-    <state x="277" y="53" key="SettingsEditor" timestamp="1679249852758">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="277" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1679249852758" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1680967148032">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1680967148032" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FEM_thermoelasticity$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1684895430208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FEM_thermoelasticity$test1.coverage" NAME="Thermal_elastisicity_FEM Coverage Results" MODIFIED="1680611145775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test2fenics/l9_thermal_elasticity" />
     <SUITE FILE_PATH="coverage/FEM_thermoelasticity$FEM_thermoelasticity.coverage" NAME="0_Streamlit Coverage Results" MODIFIED="1679249724312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/streamlit" />
-    <SUITE FILE_PATH="coverage/FEM_thermoelasticity$test1.coverage" NAME="Thermal_elastisicity_FEM Coverage Results" MODIFIED="1680611145775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/test2fenics/l9_thermal_elasticity" />
+    <SUITE FILE_PATH="coverage/FEM_thermoelasticity$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1684904904975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FEM_thermoelasticity$example.coverage" NAME="example Coverage Results" MODIFIED="1680967265323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mesh" />
   </component>
 </project>
