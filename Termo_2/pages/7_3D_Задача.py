@@ -3,7 +3,7 @@ from PIL import Image
 import os.path
 menu = st.sidebar.radio('***',
     (
-     'Задачи 3-го этапа','Постановка задачи теплопроводности','Постановка задачи упругости')
+     'Задачи 3-го этапа','Постановка задачи теплопроводности','Постановка задачи упругости','Сетка 3D задачи')
 )
 if menu == 'Задачи 3-го этапа':
     r"""
@@ -103,3 +103,11 @@ if menu == 'Постановка задачи упругости':
       {\int_{\varOmega} \sigma\varepsilon dx} = 0
     $$
     """
+if menu=='Сетка 3D задачи':
+    r"""
+    # Сетка 3D задачи
+    В ходе работы была построена сетка в трехмерном пространстве
+    """
+    path_to_image_2 = os.path.join(os.path.dirname((__file__)), 'images', 'mesh3D.png')
+    image = Image.open(path_to_image_2)
+    st.image(image, caption='')
