@@ -5,16 +5,9 @@ import os.path
 r"""
 # Сетка 
 """
-path_to_image_1 = os.path.join(os.path.dirname((__file__)), 'images', 'Сетка_Старая.png')
-image = Image.open(path_to_image_1)
-st.image(image, caption='')
 
 path_to_image_2 = os.path.join(os.path.dirname((__file__)), 'images', 'Сетка_новая.png')
 image = Image.open(path_to_image_2)
-st.image(image, caption='')
-
-path_to_image_3 = os.path.join(os.path.dirname((__file__)), 'images', 'Сетка_новая1.png')
-image = Image.open(path_to_image_3)
 st.image(image, caption='')
 
 expander = st.expander(" Пример реализации ")
