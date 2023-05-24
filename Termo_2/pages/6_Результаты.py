@@ -118,7 +118,10 @@ def plot2dtem(alpha_coef):
     plt.tight_layout()
     return figure
 
-
+values = st.slider(
+    'Select a range of values',
+    50.0, 15000.0, 25.0)
+st.write('Values:', values)
 
 
 
@@ -129,7 +132,7 @@ menu = st.sidebar.radio('***',
 
 if menu == '2D':
 
-    (st.pyplot(plot2dtem(100)))
+    (st.pyplot(plot2dtem(values)))
 
 
     r'''
@@ -171,7 +174,12 @@ if menu == '2D':
 
     path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/s1.png')
     image = Image.open(path_to_image)
-    st.image (image, caption='Распределение напряжений по x')
+    st.image (image, caption='Распределение напряжений по xx')
+
+    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/s4.png')
+    image = Image.open(path_to_image)
+    st.image (image, caption='Распределение напряжений по xy')
+
 
     path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/ux.png')
     image = Image.open(path_to_image)
@@ -180,6 +188,10 @@ if menu == '2D':
     path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/uy.png')
     image = Image.open(path_to_image)
     st.image (image, caption='Распределение перемещений по y')
+
+    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/um2.png')
+    image = Image.open(path_to_image)
+    st.image (image, caption='Распределение перемещений')
 
 
 
