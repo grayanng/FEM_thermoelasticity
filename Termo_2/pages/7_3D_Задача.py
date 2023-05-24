@@ -100,18 +100,3 @@ if menu == 'Постановка задачи упругости':
       {\int_{\varOmega} \sigma\varepsilon dx} = 0
     $$
     """
-    r"""
-    #### Напряжение по Мизесу
-    $$
-    \sigma_M = \sqrt{\frac{3}{2}s:s} \\
-    s = \sigma - \frac {1}{2}tr(\sigma)I
-
-    $$
-
-    """
-    expander = st.expander(" Используемые переменные ")
-    expander.write(
-        r""" 
-        $$s$$ - тензор девиаторного напряжения $\\$
-        $$tr(\sigma)$$ - первый инвариант тензора напряжений
-        """)
