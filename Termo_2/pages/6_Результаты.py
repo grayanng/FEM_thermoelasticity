@@ -165,6 +165,24 @@ if menu == '2D':
         '''
     st.code(code, language='python')
 
+    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/tem.png')
+    image = Image.open(path_to_image)
+    st.image (image, caption='Распределение температуры')
+
+    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/s1.png')
+    image = Image.open(path_to_image)
+    st.image (image, caption='Распределение напряжений по x')
+
+    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/ux.png')
+    image = Image.open(path_to_image)
+    st.image (image, caption='Распределение перемещений по x')
+
+    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/uy.png')
+    image = Image.open(path_to_image)
+    st.image (image, caption='Распределение перемещений по y')
+
+
+
 if menu == "3D":
     r'''
     ### Параметры образца
