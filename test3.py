@@ -44,12 +44,13 @@ print('Domain size:', L_x, '[m] x', L_y, '[m] y', L_z, '[m] z')
 
 # Закачка сетки в задачу
 path = sys.argv[1]
+path = 'new3d/composite.xml'
 cut_xml = lambda path: path.partition('.xml')[0]
 mesh = Mesh(path)
 fr = MeshFunction('size_t', mesh, cut_xml(path) + '_facet_region.xml')
 pr = MeshFunction('size_t', mesh, cut_xml(path) + '_physical_region.xml')
 # Finite element order
-eo = 1
+eo = 2
 polynom = 'CG'
 # Create functional space
 F = FunctionSpace(mesh, polynom, eo)  # piecewise linear polynomials
@@ -146,7 +147,7 @@ solve(a_str == L_str, stress, solver_parameters=sol_settings)
 
 
 # Save solution
-path = 'results3D/'
+path = 'results3D/3d/'
 tem.rename('T [K]', 'label')
 tem_file = File(f'{path}tem.pvd')
 tem_file << (tem, t)
