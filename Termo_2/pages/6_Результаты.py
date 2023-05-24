@@ -168,11 +168,11 @@ st.image (image, caption='Распределение температуры')
 
 path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/s1.png')
 image = Image.open(path_to_image)
-st.image (image, caption='Распределение напряжений по xx')
+st.image (image, caption='Распределение напряжений по xy')
 
 path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/s4.png')
 image = Image.open(path_to_image)
-st.image (image, caption='Распределение напряжений по xy')
+st.image (image, caption='Распределение напряжений по yy')
 
 
 path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/ux.png')
