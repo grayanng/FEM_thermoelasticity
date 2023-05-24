@@ -3,7 +3,7 @@ from PIL import Image
 import os.path
 import sys
 import matplotlib.pyplot as plt
-from dolfin import *
+# from dolfin import *
 import numpy as np
 from matplotlib import cm
 import matplotlib.pyplot as plt
@@ -54,23 +54,23 @@ if menu == "3D":
 
     """
 
-    path_to_imag e= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v1/temv0.png')
+    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v1/temv0.png')
     image = Image.open(path_to_image)
     st.image (image, caption='Распределение температуры')
 
-    path_to_imag e= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v1/s1.png')
+    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v1/s1.png')
     image = Image.open(path_to_image)
     st.image (image, caption='Распределение напряжений по xx')
 
-    path_to_imag e= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v1/s4.png')
+    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v1/s4.png')
     image = Image.open(path_to_image)
     st.image (image, caption='Распределение напряжений по xy')
 
-    path_to_imag e= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v1/ux.png')
+    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v1/ux.png')
     image = Image.open(path_to_image)
     st.image (image, caption='Распределение перемещений по x')
 
-    path_to_imag e= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v1/uy.png')
+    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v1/uy.png')
     image = Image.open(path_to_image)
     st.image (image, caption='Распределение перемещений по y')
 
