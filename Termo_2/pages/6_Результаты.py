@@ -121,76 +121,71 @@ def plot2dtem(alpha_coef):
 
 
 
-menu = st.sidebar.radio('***',
-    (   '2D',)
-)
+values = st.slider(
+    'Select a range of values',
+    50.0, 15000.0, 25.0)
+st.write('Values:', values)
 
-if menu == '2D':
-    values = st.slider(
-        'Select a range of values',
-        50.0, 15000.0, 25.0)
-    st.write('Values:', values)
-
-    (st.pyplot(plot2dtem(values)))
+(st.pyplot(plot2dtem(values)))
 
 
-    r'''
-        ### Параметры образца
-        '''
+r'''
+    ### Параметры образца
+    '''
 
-    code = '''
-        Lx = 0.02 
-        Ly = 0.012
-        Lz = 0.01
+code = '''
+    Lx = 0.02 
+    Ly = 0.012
+    Lz = 0.01
 
-        # Lamé's first parameter
-        lambda1 = Constant(1.25e11) 
-        lambda2 = Constant(0.65e11)
+    # Lamé's first parameter
+    lambda1 = Constant(1.25e11) 
+    lambda2 = Constant(0.65e11)
 
-        # Lamé's second parameter
-        mu1 = Constant(0.8e11) 
-        mu2 = Constant(0.5e11)
+    # Lamé's second parameter
+    mu1 = Constant(0.8e11) 
+    mu2 = Constant(0.5e11)
 
-        # [W/(m*K)] thermal conductivity
-        k1 = Constant(200.) 
-        k2 = Constant(100.)
+    # [W/(m*K)] thermal conductivity
+    k1 = Constant(200.) 
+    k2 = Constant(100.)
 
-        # [1/K] thermal expansion coefficient
-        beta1 = Constant(6.0e-6) 
-        beta2 = Constant(3.0e-6)
+    # [1/K] thermal expansion coefficient
+    beta1 = Constant(6.0e-6) 
+    beta2 = Constant(3.0e-6)
 
-        alphaAir = Constant(50.) # convection coefficient
-        TAir = Constant(300.) # [K] ambient temperature
-        THot = Constant(450.) # [K] temperature of heating
-        T0 = Constant(320.) # [K] initial temperature
+    alphaAir = Constant(50.) # convection coefficient
+    TAir = Constant(300.) # [K] ambient temperature
+    THot = Constant(450.) # [K] temperature of heating
+    T0 = Constant(320.) # [K] initial temperature
 
-        '''
-    st.code(code, language='python')
+    '''
+st.code(code, language='python')
 
-    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/tem.png')
-    image = Image.open(path_to_image)
-    st.image (image, caption='Распределение температуры')
+path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/tem.png')
+image = Image.open(path_to_image)
+st.image (image, caption='Распределение температуры')
 
-    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/s1.png')
-    image = Image.open(path_to_image)
-    st.image (image, caption='Распределение напряжений по xx')
+path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/s1.png')
+image = Image.open(path_to_image)
+st.image (image, caption='Распределение напряжений по xx')
 
-    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/s4.png')
-    image = Image.open(path_to_image)
-    st.image (image, caption='Распределение напряжений по xy')
+path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/s4.png')
+image = Image.open(path_to_image)
+st.image (image, caption='Распределение напряжений по xy')
 
 
-    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/ux.png')
-    image = Image.open(path_to_image)
-    st.image (image, caption='Распределение перемещений по x')
+path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/ux.png')
+image = Image.open(path_to_image)
+st.image (image, caption='Распределение перемещений по x')
 
-    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/uy.png')
-    image = Image.open(path_to_image)
-    st.image (image, caption='Распределение перемещений по y')
+path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/uy.png')
+image = Image.open(path_to_image)
+st.image (image, caption='Распределение перемещений по y')
 
-    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/um2.png')
-    image = Image.open(path_to_image)
-    st.image (image, caption='Распределение перемещений')
+path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/um2.png')
+image = Image.open(path_to_image)
+st.image (image, caption='Распределение перемещений')
 
 
 
