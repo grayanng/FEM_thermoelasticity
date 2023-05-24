@@ -107,7 +107,7 @@ def plot2dtem(alpha_coef):
     x = np.linspace(0.0 + tol, 0.02 - tol, 101)
     y = np.linspace(0 + tol, 0.012 - tol, 101)
     points = [(0, y_) for y_ in y]  # 2D points
-    xp = [(x_, 0.01) for x_ in x]
+    xp = [(x_, 0.006) for x_ in x]
     # p_line = np.array([tem(point) for point in points])
     p_line = np.array([tem(xg) for xg in xp])
     plt.plot(x, p_line, label='T(Y)')  # magnify w
@@ -118,19 +118,18 @@ def plot2dtem(alpha_coef):
     plt.tight_layout()
     return figure
 
-values = st.slider(
-    'Select a range of values',
-    50.0, 15000.0, 25.0)
-st.write('Values:', values)
 
 
 
 menu = st.sidebar.radio('***',
-    (   '2D',
-        '3D',)
+    (   '2D',)
 )
 
 if menu == '2D':
+    values = st.slider(
+        'Select a range of values',
+        50.0, 15000.0, 25.0)
+    st.write('Values:', values)
 
     (st.pyplot(plot2dtem(values)))
 
@@ -192,65 +191,6 @@ if menu == '2D':
     path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/um2.png')
     image = Image.open(path_to_image)
     st.image (image, caption='Распределение перемещений')
-
-
-
-if menu == "3D":
-    r'''
-    ### Параметры образца
-    '''
-
-    code = '''
-    Lx = 1  
-    Ly = 1.2  
-    Lz = 1
-
-    # Lamé's first parameter
-    lambda1 = Constant(1.25e11) 
-    lambda2 = Constant(0.65e11)
-
-    # Lamé's second parameter
-    mu1 = Constant(0.8e11) 
-    mu2 = Constant(0.5e11)
-
-    # [W/(m*K)] thermal conductivity
-    k1 = Constant(200.) 
-    k2 = Constant(100.)
-
-    # [1/K] thermal expansion coefficient
-    beta1 = Constant(6.0e-6) 
-    beta2 = Constant(3.0e-6)
-
-    alphaAir = Constant(50.) # convection coefficient
-    TAir = Constant(300.) # [K] ambient temperature
-    THot = Constant(450.) # [K] temperature of heating
-    T0 = Constant(320.) # [K] initial temperature
-
-    '''
-    st.code(code, language='python')
-
-
-
-    """
-    # Результат численного моделирования
-    
-    """
-
-    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v1/temv0.png')
-    image = Image.open(path_to_image)
-    st.image (image, caption='Распределение температуры')
-
-    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v1/s1.png')
-    image = Image.open(path_to_image)
-    st.image (image, caption='Распределение напряжений по x')
-
-    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v1/ux.png')
-    image = Image.open(path_to_image)
-    st.image (image, caption='Распределение перемещений по x')
-
-    path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v1/uy.png')
-    image = Image.open(path_to_image)
-    st.image (image, caption='Распределение перемещений по y')
 
 
 
