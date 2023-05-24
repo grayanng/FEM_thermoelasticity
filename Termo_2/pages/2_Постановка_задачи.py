@@ -71,25 +71,14 @@ if menu=='Постановка задачи упругости':
      #### Уравнение Гука (упругости) 
     $$
     \begin{aligned}
-    &div\sigma = 0\\
-    &\sigma = \lambda\thetasym I + 2\mu\varepsilon^{el} \\ 
-    &\varepsilon = \varepsilon^{el}+{\varepsilon^{th}}\\
-    &\varepsilon = \frac{1}{2} (\nabla{u} + (\nabla u)^{T})\\
-    &\varepsilon^{th} = [(3\lambda + 2\mu) \alpha(T-T_{ref})]I
+    &div\bm \sigma = 0\\
+    &\bm \sigma = \lambda\thetasym I + 2\mu\varepsilon^{el} \\ 
+    &\bm \varepsilon = \bm \varepsilon^{el}+{\bm \varepsilon^{th}}\\
+    &\bm \varepsilon = \frac{1}{2} (\nabla{\bm u} + (\nabla \bm u)^{T})\\
+    &\bm \varepsilon^{th} = [(3\lambda + 2\mu) \alpha(T-T_{ref})]I
     &\end{aligned}
     $$
     """
-    expander = st.expander(" Используемые переменные ")
-    expander.write(
-    r""" 
-    $$\lambda$$ -первый коэффициент Ламе \
-    $$\mu$$ - второй коэффициент Ламе\
-    $$\varepsilon^{el}$$ - линейный тензор упругой деформации \
-    $$\thetasym$$ = $$tr(\varepsilon^{el})$$ - первый инвариант линейного тензора упругой деформации (объемное расширение в линейном приближении)\
-    $$I$$ - единичная диагональная матрица$$\\$$ $$\alpha$$ - коэффициент теплового расширения\
-    $$T_{ref}$$ - температура, при которой материал имеет свой нормальный объем
-
-    """)
 
 
     r"""
@@ -101,6 +90,18 @@ if menu=='Постановка задачи упругости':
     r"""
     #### Слабая форма 
     $$
-      {\int_{\varOmega} \sigma\varepsilon dx} = 0
+      {\int_{\bm \varOmega} \bm \sigma\bm \varepsilon dx} = 0
     $$
     """
+
+    expander = st.expander(" Используемые переменные ")
+    expander.write(
+    r""" 
+    $$\lambda$$ -первый коэффициент Ламе \
+    $$\mu$$ - второй коэффициент Ламе\
+    $$\varepsilon^{el}$$ - линейный тензор упругой деформации \
+    $$\thetasym$$ = $$tr(\varepsilon^{el})$$ - первый инвариант линейного тензора упругой деформации (объемное расширение в линейном приближении)\
+    $$I$$ - единичная диагональная матрица$$\\$$ $$\alpha$$ - коэффициент теплового расширения\
+    $$T_{ref}$$ - температура, при которой материал имеет свой нормальный объем
+
+    """)
