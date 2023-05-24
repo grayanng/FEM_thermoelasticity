@@ -14,20 +14,14 @@ r'''
 '''
 
 code = '''
-class Bottom(SubDomain):
-    def inside(self, x, on_boundary):
-        return near(x[1], 0.0)
+mesh = Mesh(path)
+fr = MeshFunction('size_t', mesh, cut_xml(path) + '_facet_region.xml')
+pr = MeshFunction('size_t', mesh, cut_xml(path) + '_physical_region.xml')
 
-class Top(SubDomain):
-    def inside(self, x, on_boundary):
-        return near(x[1], dH)
-    
-bs_bottom_wall = Bottom()
-bs_top_wall = Top()
+F = FunctionSpace(mesh, polynom, eo) 
 
-bc_tem_bottom = DirichletBC(F, TAir, bs_bottom_wall)
-bc_tem_top = DirichletBC(F, THot, bs_top_wall)
-
+bc_tem_bottom = DirichletBC(F, THot, fr, 1)
+bc_tem_top = DirichletBC(F, TAir, fr, 2)
 bcs_tem = [bc_tem_bottom, bc_tem_top]
 
 '''
@@ -39,20 +33,16 @@ r'''
 
 code = '''
 
-def left_top_fixed_point(x, on_boundary):
-    tol = 1E-15
-    return (near(x[0], 0.0) and near(x[1],dH))
 
-def right_top_fixed_point(x, on_boundary):
-    tol = 1E-15
-    return (near(x[0], dW) and near(x[1],dH))
+V = VectorFunctionSpace(mesh, polynom, eo)
 
-rt_y_fixed_point = DirichletBC(V.sub(1), Constant(0), right_top_fixed_point, method='pointwise')
+l_fix_p = lambda x, on_boundary: near(x[0], 0.0) and near(x[1], L_z)
+r_fix_p = lambda x, on_boundary: near(x[0], L_x) and near(x[1], L_z)
 
-lt_x_fixed_point = DirichletBC(V.sub(0), Constant(0), left_top_fixed_point, method='pointwise')
-lt_y_fixed_point = DirichletBC(V.sub(1), Constant(0), left_top_fixed_point, method='pointwise')
+bc_u_lfp = DirichletBC(V, Constant((0, 0)), l_fix_p, method="pointwise")
+bc_u_rfp = DirichletBC(V.sub(1), Constant(0), r_fix_p, method="pointwise")
+bcs_u = [bc_u_lfp, bc_u_rfp]
 
-bcs_u = [lt_x_fixed_point, lt_y_fixed_point, rt_y_fixed_point]
 
 
 '''
@@ -70,12 +60,14 @@ code = '''
 F = FunctionSpace(mesh, polynom, eo)
 tem = TrialFunction(F)
 q = TestFunction(F)
-eq_tem = (k_ * inner(nabla_grad(tem), nabla_grad(q)) * dX + alphaAir * (tem - TAir) * q * dX)
+F_T = k1 * inner(grad(tem), grad(q)) * dx(1) + 
+      k2 * inner(grad(tem), grad(q)) * dx(2) + 
+      alphaAir * (tem - TAir) * q * ds(4)
+
 a_therm = lhs(eq_tem)
 L_therm = rhs(eq_tem)
 sol_settings = {'linear_solver': 'mumps'}
 
-# Compute HCE
 solve(a_therm == L_therm, tem, bcs_tem, solver_parameters=sol_settings)
 
 '''
@@ -88,31 +80,43 @@ r'''
 
 code = '''
 V = VectorFunctionSpace(mesh, polynom, eo)
-# Compose weak form of PDE(elasticity):
-# Split the equation into right-hand-side (RHS) and left-hand-side (LHS) parts:
 u = TrialFunction(V)
 v = TestFunction(V)
-sigma_ = lambda_ * nabla_div(u) * Identity(d2) + mu * (nabla_grad(u) + nabla_grad(u).T) \
-         - (3 * lambda_ + 2 * mu) * alpha * (tem_n - tem_ref) * Identity(d1)
-epsilon_ = 0.5 * (nabla_grad(v) + nabla_grad(v).T)
-elastic_eqn = inner(sigma_, epsilon_) * dX
-# LHS, bilinear form
-a_elas = lhs(elastic_eqn)
-# RHS, Linear form
-L_elas = rhs(elastic_eqn)
+d1 = v.geometric_dimension()  # space dimension
+tem_el = Function(F)
+I = Identity(d1)
+
+eps = lambda v: 0.5 * (grad(v) + grad(v).T)
+sigma = lambda v, mu, lmbda, T, beta: 2 * mu * eps(v) + lmbda * tr(eps(v)) * I
+        -(beta * (lmbda + 2 * mu / 3)) * (T - T0) * I
+ 
+F_u = inner(sigma(u, mu1, lambda1, tem_el, beta1), eps(v)) * dx(1)
+     +inner(sigma(u, mu2, lambda2, tem_el, beta2), eps(v)) * dx(2)
+a_elas = lhs(F_u)
+L_elas = rhs(F_u)
 solve(a_elas == L_elas, u, bcs_u, solver_parameters=sol_settings)
 
 '''
 st.code(code, language = 'python')
 
 r'''
-## Вычисление напряжений
+## Напряжение
 '''
 
 code = '''
-# Compute stress
-s = sigma(u) - (1. / 3) * tr(sigma(u)) * Identity(d2)  # deviatoric stress
-von_Mises = sqrt(3. / 2 * inner(s, s))
-von_Mises = project(von_Mises, F)
+
+Q = TensorFunctionSpace(mesh, polynom, eo)
+
+stress = TrialFunction(Q)
+w = TestFunction(Q)
+disp = Function(V)
+tem_str = Function(F)
+F_s = inner(stress, w)*dx -inner(sigma(disp,mu1,lambda1,tem_str,beta1),w)*dx(1)
+     -inner(sigma(disp,mu2,lambda2,tem_str,beta2),w)*dx(2)
+a_str = lhs(F_s)
+L_str = rhs(F_s)
+
+solve(a_str == L_str, stress, solver_parameters=sol_settings)
+
 '''
 st.code(code, language = 'python')
