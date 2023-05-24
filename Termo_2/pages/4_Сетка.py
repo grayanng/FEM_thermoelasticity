@@ -8,7 +8,7 @@ r"""
 
 path_to_image_2 = os.path.join(os.path.dirname((__file__)), 'images', 'Сетка_новая.png')
 image = Image.open(path_to_image_2)
-st.image(image, caption='')
+st.image(image, caption='Сетка 2D объекта')
 
 expander = st.expander(" Пример реализации ")
 expander.write(r"""```python

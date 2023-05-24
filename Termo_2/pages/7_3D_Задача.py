@@ -112,4 +112,4 @@ if menu=='Сетка 3D задачи':
     """
     path_to_image_2 = os.path.join(os.path.dirname((__file__)), 'images', 'mesh3D.png')
     image = Image.open(path_to_image_2)
-    st.image(image, caption='')
+    st.image(image, caption='Сетка 3D объекта')
