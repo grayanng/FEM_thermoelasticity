@@ -170,9 +170,9 @@ path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images'
 image = Image.open(path_to_image)
 st.image (image, caption='Распределение напряжений по xy')
 
-path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/s4.png')
+path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/s0.png')
 image = Image.open(path_to_image)
-st.image (image, caption='Распределение напряжений по yy')
+st.image (image, caption='Распределение напряжений по xx')
 
 
 path_to_image= os.path.join(os.path.dirname(os.path.dirname(__file__)), 'images', './v2/ux.png')
