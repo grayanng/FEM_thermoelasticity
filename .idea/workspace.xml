@@ -28,67 +28,746 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d88ddb42-81c3-4827-8b96-7b34c8ca2ade" name="Default Changelist" comment="fix code in streamlit">
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s1.pvsm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/s8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/stress.pvd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/stress000000.vtu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/tem.pvd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/tem000000.vtu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/temv0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/temv1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/u.pvd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/u000000.vtu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v1/um.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/s1.pvsm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/s3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/s4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/stress.pvd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/stress000000.vtu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/tem.pvd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/tem000000.vtu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/u.pvd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/u000000.vtu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/um.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Termo_2/images/v2/um2.png" afterDir="false" />
+    <list default="true" id="d88ddb42-81c3-4827-8b96-7b34c8ca2ade" name="Default Changelist" comment="yy to xx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/tem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/tem2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/tem3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/ux.png" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/images/v1/ux.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/ux2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/ux3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/uy.png" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/images/v1/uy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/uy2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/uy3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/vms.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v1/vms2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/tem.png" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/images/v2/tem.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/tem2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/tem3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/ux.png" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/images/v2/ux.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/ux2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/ux3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/uy.png" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/images/v2/uy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/uy2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/uy3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/vms.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Termo_2/images/v2/vms2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/PIL/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/PIL/_imaging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/PIL/_imagingcms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/PIL/_imagingft.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/PIL/_imagingmath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/PIL/_imagingmorph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/PIL/_imagingtk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/PIL/_webp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_abc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_ast.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_asyncio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_bisect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_blake2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_bz2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_codecs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_codecs_cn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_codecs_hk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_codecs_iso2022.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_codecs_jp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_codecs_kr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_codecs_tw.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_contextvars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_ctypes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_ctypes_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_cython_0_29_32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_cython_0_29_33.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_datetime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_decimal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_elementtree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_functools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_hashlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_heapq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_imp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_locale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_lsprof.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_lzma.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_md5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_msi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_multibytecodec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_multiprocessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_opcode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_operator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_overlapped.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_peg_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_pickle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_queue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_random.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_sha1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_sha256.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_sha3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_sha512.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_signal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_socket.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_sqlite3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_sre.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_ssl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_stat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_statistics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_string.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_struct.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_symtable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_testbuffer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_testcapi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_testconsole.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_testimportmultiple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_testinternalcapi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_testmultiphase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_thread.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_tkinter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_tracemalloc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_uuid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_warnings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_weakref.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_winapi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_xxsubinterpreters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/_zoneinfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/atexit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/audioop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/binascii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/builtins.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/charset_normalizer/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/charset_normalizer/md.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/charset_normalizer/md__mypyc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/cmath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/cython_runtime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/errno.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/faulthandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/gc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/google/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/google/protobuf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/google/protobuf/internal/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/google/protobuf/internal/_api_implementation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/google/protobuf/pyext/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/google/protobuf/pyext/_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/itertools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/markupsafe/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/markupsafe/_speedups.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/marshal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/math.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/mmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/msvcrt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/nt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/core/_multiarray_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/core/_multiarray_umath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/core/_operand_flag_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/core/_rational_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/core/_simd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/core/_struct_ufunc_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/core/_umath_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/fft/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/fft/_pocketfft_internal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/linalg/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/linalg/_umath_linalg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/linalg/lapack_lite.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/random/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/random/_bounded_integers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/random/_common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/random/_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/random/_mt19937.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/random/_pcg64.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/random/_philox.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/random/_sfc64.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/random/bit_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/numpy/random/mtrand.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/algos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/arrays.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/groupby.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Complex128HashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Complex128Vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Complex64HashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Complex64Vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Factorizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Float32HashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Float32Vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Float64HashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Float64Vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/HashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Int16HashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Int16Vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Int32HashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Int32Vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Int64Factorizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Int64HashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Int64Vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Int8HashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Int8Vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/IntpHashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/ObjectFactorizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/ObjectVector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/PyObjectHashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/StringHashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/StringVector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/UInt16HashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/UInt16Vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/UInt32HashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/UInt32Vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/UInt64HashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/UInt64Vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/UInt8HashTable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/UInt8Vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/Vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/hashtable/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/indexing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/internals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/interval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/join.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/lib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/missing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/ops_dispatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/parsers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/properties.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/reduction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/reshape.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/sparse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/ccalendar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/conversion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/dtypes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/nattype.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/np_datetime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/ApplyTypeError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/BDay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/BMonthBegin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/BMonthEnd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/BQuarterBegin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/BQuarterEnd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/BYearBegin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/BYearEnd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/BaseOffset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/BusinessDay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/BusinessHour.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/BusinessMixin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/BusinessMonthBegin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/BusinessMonthEnd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/CBMonthBegin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/CBMonthEnd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/CDay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/CustomBusinessDay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/CustomBusinessHour.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/CustomBusinessMonthBegin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/CustomBusinessMonthEnd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/DateOffset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/Day.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/Easter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/FY5253.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/FY5253Mixin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/FY5253Quarter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/Hour.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/LastWeekOfMonth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/Micro.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/Milli.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/Minute.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/MonthBegin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/MonthEnd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/MonthOffset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/Nano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/OffsetMeta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/QuarterBegin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/QuarterEnd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/QuarterOffset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/RelativeDeltaOffset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/Second.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/SemiMonthBegin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/SemiMonthEnd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/SemiMonthOffset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/SingleConstructorOffset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/Tick.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/Week.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/WeekOfMonth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/WeekOfMonthMixin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/YearBegin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/YearEnd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/YearOffset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/_CustomBusinessMonth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/offsets/relativedelta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/parsing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/period.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/strptime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/timedeltas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/timestamps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/timezones.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/tzconversion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/tslibs/vectorized.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/window/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/window/aggregations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/window/indexers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/_libs/writers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/io/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/io/sas/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pandas/io/sas/_sas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pvectorc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/ArraySortOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/AssumeTimezoneOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/CastOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/CountOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/CumulativeSumOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/DayOfWeekOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/DictionaryEncodeOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/ElementWiseAggregateOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/Expression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/ExtractRegexOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/FilterOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/Function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/FunctionDoc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/FunctionOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/FunctionRegistry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/HashAggregateFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/HashAggregateKernel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/IndexOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/JoinOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/Kernel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/ListSliceOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/MakeStructOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/MapLookupOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/MatchSubstringOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/MetaFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/ModeOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/NullOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/PadOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/PartitionNthOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/QuantileOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/RandomOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/RankOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/ReplaceSliceOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/ReplaceSubstringOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/RoundOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/RoundTemporalOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/RoundToMultipleOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/ScalarAggregateFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/ScalarAggregateKernel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/ScalarAggregateOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/ScalarFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/ScalarKernel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/ScalarUdfContext.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/SelectKOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/SetLookupOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/SliceOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/SortOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/SplitOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/SplitPatternOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/StrftimeOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/StrptimeOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/StructFieldOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/TDigestOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/TakeOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/TrimOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/Utf8NormalizeOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/VarianceOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/VectorFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/VectorKernel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/WeekOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_ArraySortOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_AssumeTimezoneOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_CastOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_CountOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_CumulativeSumOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_DayOfWeekOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_DictionaryEncodeOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_ElementWiseAggregateOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_ExtractRegexOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_FilterOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_IndexOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_JoinOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_ListSliceOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_MakeStructOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_MapLookupOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_MatchSubstringOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_ModeOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_NullOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_PadOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_PartitionNthOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_QuantileOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_RandomOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_RankOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_ReplaceSliceOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_ReplaceSubstringOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_RoundOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_RoundTemporalOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_RoundToMultipleOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_ScalarAggregateOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_SelectKOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_SetLookupOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_SliceOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_SortOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_SplitOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_SplitPatternOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_StrftimeOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_StrptimeOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_StructFieldOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_TDigestOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_TakeOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_TrimOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_Utf8NormalizeOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_VarianceOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/_WeekOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_compute/ordered_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/CsvFileFormat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/CsvFileWriteOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/CsvFragmentScanOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/Dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/DatasetFactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/DirectoryPartitioning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/FeatherFileFormat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/FileFormat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/FileFragment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/FileSystemDataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/FileSystemDatasetFactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/FileSystemFactoryOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/FileWriteOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/FilenamePartitioning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/Fragment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/FragmentScanOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/HivePartitioning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/InMemoryDataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/IpcFileFormat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/IpcFileWriteOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/KeyValuePartitioning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/Partitioning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/PartitioningFactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/RecordBatchIterator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/Scanner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/TaggedRecordBatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/TaggedRecordBatchIterator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/UnionDataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/UnionDatasetFactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/WrittenFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_dataset_parquet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_exec_plan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_feather.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/Action.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/ActionType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/BasicAuth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/CallInfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/CertKeyPair.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/ClientAuthHandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/ClientAuthReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/ClientAuthSender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/ClientMiddleware.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/ClientMiddlewareFactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/DescriptorType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightCallOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightCancelledError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightClient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightDataStream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightDescriptor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightEndpoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightInfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightInternalError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightMetadataReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightMetadataWriter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightMethod.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightServerBase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightServerError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightStreamChunk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightStreamReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightStreamWriter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightTimedOutError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightUnauthenticatedError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightUnauthorizedError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightUnavailableError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/FlightWriteSizeExceededError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/GeneratorStream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/Location.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/MetadataRecordBatchReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/MetadataRecordBatchWriter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/RecordBatchStream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/Result.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/SchemaResult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/ServerAuthHandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/ServerAuthReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/ServerAuthSender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/ServerCallContext.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/ServerMiddleware.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/ServerMiddlewareFactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/Ticket.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/TracingServerMiddleware.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/TracingServerMiddlewareFactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/_ActionType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/_CallInfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/_CertKeyPair.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/_FlightServerFinalizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/_MetadataRecordBatchReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/_ServerMiddlewareFactoryWrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/_ServerMiddlewareWrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_flight/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_fs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_hdfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_hdfsio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_parquet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_parquet_encryption.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_pyarrow_cpp_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_s3fs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/_substrait.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ArrowCancelled.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ArrowCapacityError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ArrowException.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ArrowIOError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ArrowIndexError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ArrowInvalid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ArrowKeyError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ArrowMemoryError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ArrowNotImplementedError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ArrowSerializationError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ArrowTypeError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/BaseExtensionType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/BaseListArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/BinaryArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/BinaryScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/BooleanArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/BooleanScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Buffer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/BufferOutputStream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/BufferReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/BufferedIOBase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/BufferedInputStream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/BufferedOutputStream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/BuildInfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ChunkedArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Codec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/CompressedInputStream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/CompressedOutputStream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/DataType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Date32Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Date32Scalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Date64Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Date64Scalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Decimal128Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Decimal128Scalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Decimal128Type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Decimal256Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Decimal256Scalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Decimal256Type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/DenseUnionType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/DeserializationCallbackError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/DictionaryArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/DictionaryMemo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/DictionaryScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/DictionaryType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/DoubleArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/DoubleScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/DurationArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/DurationScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/DurationType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ExtensionArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ExtensionScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ExtensionType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Field.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/FixedSizeBinaryArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/FixedSizeBinaryScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/FixedSizeBinaryType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/FixedSizeBufferWriter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/FixedSizeListArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/FixedSizeListScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/FixedSizeListType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/FloatArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/FloatScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/FloatingPointArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/HalfFloatArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/HalfFloatScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/IOBase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Int16Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Int16Scalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Int32Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Int32Scalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Int64Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Int64Scalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Int8Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Int8Scalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/IntegerArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/IpcReadOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/IpcWriteOptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/KeyValueMetadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/LargeBinaryArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/LargeBinaryScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/LargeListArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/LargeListScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/LargeListType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/LargeStringArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/LargeStringScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ListArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ListScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ListType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/LoggingMemoryPool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/MapArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/MapScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/MapType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Mapping.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/MemoryMappedFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/MemoryPool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/MessageReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/MetadataVersion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/MockOutputStream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/MonthDayNano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/MonthDayNanoIntervalArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/MonthDayNanoIntervalScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/NativeFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/NullArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/NullScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/NumericArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/OSFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ProxyMemoryPool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/PyExtensionType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/PythonFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Queue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ReadStats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/RecordBatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/RecordBatchReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/RecordBatchWithMetadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ResizableBuffer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/RuntimeInfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Scalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Schema.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/SerializationCallbackError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/SerializationContext.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/SerializedPyObject.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/SignalStopHandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/SparseCOOTensor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/SparseCSCMatrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/SparseCSFTensor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/SparseCSRMatrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/SparseUnionType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/StopToken.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/StringArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/StringBuilder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/StringScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/StructArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/StructScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/StructType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/TableGroupBy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Tensor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/TextIOBase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Time32Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Time32Scalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Time32Type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Time64Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Time64Scalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Time64Type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/TimestampArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/TimestampScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/TimestampType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/Transcoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/TransformInputStream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/UInt16Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/UInt16Scalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/UInt32Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/UInt32Scalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/UInt64Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/UInt64Scalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/UInt8Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/UInt8Scalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/UnionArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/UnionScalar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/UnionType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/UnknownExtensionType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/UnsupportedOperation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/VersionInfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/WriteStats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/_CRecordBatchWriter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/_ExtensionRegistryNanny.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/_Metadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/_PandasAPIShim.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/_PandasConvertible.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/_ReadPandasMixin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/_ReadStats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/_RecordBatchFileReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/_RecordBatchFileWriter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/_RecordBatchStreamReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/_RecordBatchStreamWriter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/_RecordBatchWithMetadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/_Weakrefable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/_WriteStats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyarrow/lib/ordered_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyexpat/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyexpat/errors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/pyexpat/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/select.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/sys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/time.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/tornado/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/tornado/speedups.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/unicodedata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/winreg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/winsound.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/xxsubtype.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/-183108180/zlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/0_Введение.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/0_Введение.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/pages/1_План_работы.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/1_План_работы.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/pages/2_Постановка_задачи.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/2_Постановка_задачи.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/pages/4_Сетка.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/4_Сетка.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Termo_2/pages/7_3D_Задача.py" beforeDir="false" afterPath="$PROJECT_DIR$/Termo_2/pages/7_3D_Задача.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fenicstem.py" beforeDir="false" afterPath="$PROJECT_DIR$/fenicstem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/.pydevproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/2D/composite_delaunnay.msh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/2D/composite_fdelaunnay.msh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/2D/composite_fenics/composite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/2d/composite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/2D/composite_fenics/composite_facet_region.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/2d/composite_facet_region.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/2D/composite_fenics/composite_physical_region.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/2d/composite_physical_region.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/2D/composite_fenics/geo_test.geo" beforeDir="false" afterPath="$PROJECT_DIR$/mesh/2d/geo_test.geo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/2D/composite_fenics_2D.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/2D/composite_test.msh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/2D/geom.geo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/2D/results/Геометрия.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/3D/composite.msh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/3D/composite_fenics.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/3D/composite_fenics/composite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/3D/composite_fenics/composite_facet_region.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/3D/composite_fenics/composite_physical_region.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/3D/geom.geo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/refinement2d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/refinement3d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v0/composite.msh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v0/conv_meshes/composite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v0/conv_meshes/composite_facet_region.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v0/conv_meshes/composite_physical_region.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/classic_meshing/v0/geom.geo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/v0/CURRENT/composite_simplified.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/v0/CURRENT/composite_simplified_facet_region.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/v0/CURRENT/composite_simplified_physical_region.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/v0/CURRENT/try1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/v0/CURRENT/try2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/v0/example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/v0/geom.geo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/v0/geom.msh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/v0/geom_simplified.geo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/v0/geom_simplified.msh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/v0/raw_geom.geo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/v0/raw_geom.msh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh/v0/raw_geom.stp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/3D/stress000000.vtu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/3D/tem.pvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/3D/tem000000.vtu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/3D/u.pvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/3D/u000000.vtu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2d_FEM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/3d_FEM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
     <envs>
@@ -105,6 +784,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="fefae13e-96d7-4b22-8862-77c03269eafd" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2NBPEyNA14vIOFVOsAMtfRZ2k2l" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -113,14 +795,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/ponomdi/PycharmProjects/FEM_thermoelasticity/Termo_2/images/v1",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ponomdi\PycharmProjects\FEM_thermoelasticity\Termo_2\images\v1" />
       <recent name="C:\Users\ponomdi\PycharmProjects\FEM_thermoelasticity\Termo_2\images\v2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ponomdi\PycharmProjects\FEM_thermoelasticity\mesh\3d" />
+      <recent name="C:\Users\ponomdi\PycharmProjects\FEM_thermoelasticity\mesh\2d" />
     </key>
   </component>
   <component name="RunManager">
@@ -180,7 +870,65 @@
       <workItem from="1681920939973" duration="599000" />
       <workItem from="1681930704736" duration="1273000" />
       <workItem from="1681973139571" duration="8526000" />
+      <workItem from="1684994694258" duration="1663000" />
     </task>
+    <task id="LOCAL-00001" summary="fix graphics in streamlit">
+      <created>1684910642473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684910642473</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix graphics in streamlit">
+      <created>1684911641051</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684911641051</updated>
+    </task>
+    <task id="LOCAL-00003" summary="3d and 2d">
+      <created>1684913308330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684913308330</updated>
+    </task>
+    <task id="LOCAL-00004" summary="3d and 2d">
+      <created>1684914956796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684914956796</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add 3d code">
+      <created>1684915413207</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684915413207</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix">
+      <created>1684915576513</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684915576513</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix">
+      <created>1684915746708</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684915746708</updated>
+    </task>
+    <task id="LOCAL-00008" summary="yy to xx">
+      <created>1684916025639</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684916025639</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +956,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix graphics in streamlit" />
+    <MESSAGE value="3d and 2d" />
+    <MESSAGE value="add 3d code" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="yy to xx" />
+    <option name="LAST_COMMIT_MESSAGE" value="yy to xx" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FEM_thermoelasticity$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1684895430208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

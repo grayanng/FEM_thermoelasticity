@@ -6,7 +6,7 @@ import os.path
 menu = st.sidebar.radio('***',
     (
     'Цель работы','Этапы работы',
-     'Задачи ',)
+     )
 )
 
 if menu == 'Цель работы':

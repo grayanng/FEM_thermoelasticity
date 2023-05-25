@@ -28,7 +28,7 @@ if menu=='Постановка задачи теплопроводности':
       #### Уравнение теплопроводности 
     $$
       \begin{aligned}
-      &-\nabla  (k \nabla T) = 0\\
+      &-\text{grad}  (k\ \text{div}\ T) = 0\\
       \end{aligned}
     $$
     """
@@ -46,7 +46,7 @@ if menu=='Постановка задачи теплопроводности':
       #### Слабая форма
     $$
     \begin{aligned}
-     &-\int_{\varOmega}k (\nabla \omega  \nabla T)d\varOmega = 0  
+     &-\int\limits_{\varOmega}k (\nabla \omega  \nabla T)dx + \int\limits_{Г_2} \alpha_{air}\omega(T - T_{air})ds = 0  
     \end{aligned}
     $$
 

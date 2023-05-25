@@ -26,7 +26,7 @@ if menu == 'Постановка задачи теплопроводности':
       #### Уравнение теплопроводности 
     $$
       \begin{aligned}
-      &-\nabla  (k \nabla T) = 0\\
+      &-\text{grad}  (k\ \text{div}\ T) = 0\\
       \end{aligned}
     $$
     """
@@ -44,8 +44,7 @@ if menu == 'Постановка задачи теплопроводности':
       #### Слабая форма
     $$
     \begin{aligned}
-     &-\int_{\varOmega}k (\nabla \omega  \nabla T)d\varOmega = 0
-
+     &-\int\limits_{\varOmega}k (\nabla \omega  \nabla T)dx + \int\limits_{Г_2} \alpha_{air}\omega(T - T_{air}) ds = 0  
     \end{aligned}
     $$
 
@@ -115,3 +114,23 @@ if menu=='Сетка 3D задачи':
     path_to_image_2 = os.path.join(os.path.dirname((__file__)), 'images', 'mesh3D.png')
     image = Image.open(path_to_image_2)
     st.image(image, caption='Сетка 3D объекта')
+
+    import streamlit as st
+    from PIL import Image
+    import os.path
+
+    expander = st.expander(" geo файл ")
+    expander.write(r"""```
+    SetFactory("OpenCASCADE");
+    Box(1) = {0, 0, 0, 1, 1, 0.2};
+    Box(2) = {0, 0, 0.2, 1, 1, 1};
+    Coherence;
+    Physical Surface("upper", 1) = {11};
+    Physical Surface("lower", 2) = {5};
+    Physical Surface("conv_walls", 4) = {7, 1, 3, 9, 10, 4, 8, 2};
+    Physical Surface("interface", 3) = {6};
+    Physical Volume("dom1", 1) = {1};
+    Physical Volume("dom2", 2) = {2};
+
+    '''""")
+    

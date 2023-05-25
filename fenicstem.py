@@ -43,7 +43,7 @@ def plot2dtem(alpha_coef):
 
     # Закачка сетки в задачу
     # path = sys.argv[1]
-    path = 'mesh/classic_meshing/2D/composite_fenics/composite.xml'
+    path = 'mesh/2d/composite.xml'
 
     cut_xml = lambda path: path.partition('.xml')[0]
     mesh = Mesh(path)
